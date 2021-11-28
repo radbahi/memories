@@ -100,7 +100,6 @@ const Post = () => {
                   onClick={() => openPost(_id)}
                   key={_id}
                 >
-                  {console.log(selectedFile)}
                   <Typography gutterBottom variant="h6">
                     {title}
                   </Typography>
