@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "http://localhost:5000" });
+const API = axios.create({ baseURL: "https://memories-bac.herokuapp.com/" });
 
 //saves token to each api request to let server know user is logged in
 API.interceptors.request.use((req) => {
